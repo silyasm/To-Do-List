@@ -39,7 +39,7 @@ struct ContentView: View {
             .navigationBarItems(leading: EditButton(),
                                 trailing: Button(action: {
                                                     showingAddItemView = true}) {
-                                    Image(systemName: "plus")
+                                                    Image(systemName: "plus")
                                 })
         }
     }
